@@ -176,6 +176,11 @@ nav:
       - explanation/index.md
   - Design:
       - design/index.md
+      - Goals: design/goals.md
+      - Architecture: design/architecture.md
+      - CLI: design/cli.md
+      - Rules: design/rules.md
+      - Settings: design/settings.md
   - Reference:
       - reference/index.md
       - API: reference/api.md
