@@ -84,6 +84,35 @@ dev-docs:
   echo "Starting docs server on http://127.0.0.1:$port"
   uv run --isolated --group docs mkdocs serve --livereload --dev-addr "127.0.0.1:$port"
 
+# Run a notebook and save executed output
+nb-run notebook *args:
+  uv run --group notebooks papermill "{{notebook}}" "{{notebook}}" {{ args }}
+
+# Run all notebooks in the notebooks directory
+nb-run-all:
+  #!/usr/bin/env bash
+  for nb in notebooks/*.ipynb; do
+    echo "Running $nb..."
+    uv run --group notebooks papermill "$nb" "$nb" || exit 1
+  done
+
+# Lint notebooks with ruff
+nb-lint *args:
+  ruff check notebooks/ {{ args }}
+
+# Format notebooks with ruff
+nb-format *args:
+  ruff format notebooks/ {{ args }}
+
+# Type check notebooks with basedpyright
+nb-types *args:
+  basedpyright notebooks/ "$@"
+
+# Download spaCy models for notebook development
+spacy-models:
+  #!/usr/bin/env bash
+  uv pip install "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+
 # Format code
 format:
   codespell -w

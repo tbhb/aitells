@@ -1,6 +1,12 @@
 APIs
 anyio
 backoff
+eBooks
+Ebooks
+spaCy
+Wikimedia
+Wikisource
+Wikibooks
 CLI
 frontmatter
 httpx

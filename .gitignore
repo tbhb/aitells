@@ -28,6 +28,9 @@ coverage.*
 node_modules/
 site/
 
+# Jupyter
+.ipynb_checkpoints/
+
 # Vale synced packages (keep vocabulary)
 .vale/*
 !.vale/config/

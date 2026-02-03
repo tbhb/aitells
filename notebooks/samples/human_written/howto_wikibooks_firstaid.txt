@@ -1,0 +1,11 @@
+# Source: Wikibooks First Aid - First Aid Introduction
+# URL: https://en.wikibooks.org/wiki/First_Aid/Introduction
+# License: CC BY-SA 3.0
+
+Wikibooks contains books on many medical topics; however, no warranty whatsoever is made that any of the books are accurate. There is absolutely no assurance that any statement contained or cited in a book touching on medical matters is true, correct, precise, or up-to-date. The overwhelming majority of such books are written, in part or in whole, by nonprofessionals. Even if a statement made about medicine is accurate, it may not apply to you or your symptoms.
+
+The medical information provided on Wikibooks is, at best, of a general nature and cannot substitute for the advice of a medical professional (for instance, a qualified doctor/physician, nurse, pharmacist/chemist, and so on). Wikibooks is not a doctor.
+
+None of the individual contributors, system operators, developers, sponsors of Wikibooks nor anyone else connected to Wikibooks can take any responsibility for the results or consequences of any attempt to use or adopt any of the information presented on this web site.
+
+Nothing on Wikibooks.org or included as part of any project of Wikimedia Foundation Inc., should be construed as an attempt to offer or render a medical opinion or otherwise engage in the practice of medicine.

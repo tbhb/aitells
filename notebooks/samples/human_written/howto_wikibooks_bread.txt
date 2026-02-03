@@ -1,0 +1,11 @@
+# Source: Wikibooks Cookbook - Bread
+# URL: https://en.wikibooks.org/wiki/Cookbook:Bread
+# License: CC BY-SA 3.0
+
+There are many types of bread across the world, each with its own history, style, and taste. Typically, these can be described according to a couple characteristics.
+
+Leavened breads include a component to lighten and expand the crumb, while unleavened breads do not. As a result, unleavened bread is usually denser. Beyond the simple presence/absence of leavener, breads can also be classified as yeasted breads, which use yeast as the leavener, or quickbreads, which use a chemical leavener like baking powder or baking soda—either way, the resulting carbon dioxide gas is what leavens the bread.
+
+Loaves are shaped to have several inches of height, with an outer crust and inner crumb that have different textures—they are almost always leavened and made with a significant proportion of wheat flour. On the other hand, flatbreads are thin and usually crustless, though they may be either leavened or unleavened. Because of their simplicity and non-reliance on leavening, flatbreads are the most basic and widespread type of bread worldwide, and they can use a range of flours. Typically, flatbreads local to a culture will incorporate the grains or starches local to that area.
+
+Lean breads have little to no fat in them, while enriched breads contain fat, eggs, and or sugar, all of which impact the texture. Typically, enriched breads have a much softer and more tender crumb as a result. Like cheese, bread is made from very simple ingredients, and it is the specific choices made during the multi-stage production process that create the wide array of options we see.

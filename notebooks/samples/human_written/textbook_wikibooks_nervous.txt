@@ -1,0 +1,7 @@
+# Source: Wikibooks Human Physiology - The Nervous System
+# URL: https://en.wikibooks.org/wiki/Human_Physiology/The_Nervous_System
+# License: CC BY-SA 3.0
+
+The central nervous system includes the brain and spinal cord. The brain and spinal cord are protected by bony structures, membranes, and fluid. The brain is held in the cranial cavity of the skull and it consists of the cerebrum, cerebellum, and the brain stem. The nerves involved are cranial nerves and spinal nerves.
+
+The nervous system has three main functions: sensory input, integration of data and motor output. Sensory input is when the body gathers information or data, by way of neurons, glia and synapses. The nervous system is composed of excitable nerve cells (neurons) and synapses that form between the neurons and connect them to centers throughout the body or to other neurons. These neurons operate on excitation or inhibition, and although nerve cells can vary in size and location, their communication with one another determines their function. These nerves conduct impulses from sensory receptors to the brain and spinal cord. The data is then processed by way of integration of data, which occurs only in the brain. After the brain has processed the information, impulses are then conducted from the brain and spinal cord to muscles and glands, which is called motor output. Glia cells are found within tissues and are not excitable but help with myelination, ionic regulation and extracellular fluid.

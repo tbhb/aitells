@@ -38,6 +38,14 @@ dev = [
   "yamllint>=1.37.1",
 ]
 docs = ["mkdocs-material>=9.7.1", "mkdocstrings[python]>=1.0.0"]
+notebooks = [
+  "beautifulsoup4>=4.14.3",
+  "httpx>=0.28.1",
+  "ipykernel>=7.1.0",
+  "ipywidgets>=8.1.8",
+  "papermill>=2.6.0",
+  "spacy>=3.8.11",
+]
 release = ["cyclonedx-bom>=7.2.1"]
 
 [project.scripts]
@@ -52,7 +60,7 @@ Repository = "https://github.com/tbhb/aitells"
 
 [tool.basedpyright]
 exclude = ["**/node_modules", "**/tmp", "examples/**"]
-include = ["src", "tests"]
+include = ["src", "tests", "notebooks"]
 pythonVersion = "3.10"
 reportImplicitRelativeImport = "none"
 reportImportCycles = "error"
@@ -60,7 +68,7 @@ allowedUntypedLibraries = ["pyfakefs", "pytest_codspeed", "unittest.mock"]
 strict = ["src", "tests"]
 
 [tool.codespell]
-skip = "coverage.xml,coverage.json,uv.lock,htmlcov,tmp,pnpm-lock.yaml,docs,site,dist,*.cdx.json"
+skip = "coverage.xml,coverage.json,uv.lock,htmlcov,tmp,pnpm-lock.yaml,docs,site,dist,*.cdx.json,**/samples/**"
 ignore-words-list = "AKS,CrossReference,Nd,Wont,WONT"
 
 [tool.complexipy]
@@ -202,4 +210,11 @@ ignore-variadic-names = true
 "**/tests/**" = [
   "D",    # docstrings in tests
   "S101", # assert statements in tests
+]
+"*.ipynb" = [
+  "E402",    # imports don't need to be at top (cell-based)
+  "T20",     # print statements are primary output mechanism
+  "PLR2004", # magic values fine in exploratory code
+  "TC002",   # type-only imports can stay at runtime in notebooks
+  "ISC003",  # explicit string concat allowed (basedpyright prefers it)
 ]

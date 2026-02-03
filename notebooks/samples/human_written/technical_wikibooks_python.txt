@@ -1,0 +1,13 @@
+# Source: Wikibooks Python Programming - Python Overview
+# URL: https://en.wikibooks.org/wiki/Python_Programming/Overview
+# License: CC BY-SA 3.0
+
+Python is a high-level, structured, open-source programming language that can be used for a wide variety of programming tasks. Python was created by Guido Van Rossum in the early 1990s; its following has grown steadily and interest has increased markedly in the last few years or so. It is named after Monty Python's Flying Circus comedy program.
+
+Python is used extensively for system administration (many vital components of Linux distributions are written in it); also, it is a great language to teach programming to novices. NASA has used Python for its software systems and has adopted it as the standard scripting language for its Integrated Planning System. Python is also extensively used by Google to implement many components of its Web Crawler and Search Engine & Yahoo! for managing its discussion groups.
+
+Python within itself is an interpreted programming language that is automatically compiled into bytecode before execution (the bytecode is then normally saved to disk, just as automatically, so that compilation need not happen again until and unless the source gets changed). It is also a dynamically typed language that includes (but does not require one to use) object-oriented features and constructs.
+
+The most unusual aspect of Python is that whitespace is significant; instead of block delimiters (braces → "{}" in the C family of languages), indentation is used to indicate where blocks begin and end.
+
+For example, the following Python code can be interactively typed at an interpreter prompt, display the famous "Hello World!" on the user screen:
