@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "AI Tells"
+abstract: "Detect linguistic patterns commonly associated with AI-generated prose"
+authors:
+  - family-names: Burns
+    given-names: Tony
+    orcid: "https://orcid.org/0009-0006-4480-2939"
+repository-code: "https://github.com/tbhb/aitells"
+url: "https://aitells.tbhb.dev"
+license: MIT
+version: "0.1.0"
+date-released: "2026-01-01"
+keywords:
+  - aitells
+  - python
+  - cli-tool

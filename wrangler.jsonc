@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aitells-docs",
+  "compatibility_date": "2025-01-12",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  },
+
+  // Production routes - deploy to aitells.tbhb.dev
+  "routes": [{ "pattern": "aitells.tbhb.dev", "custom_domain": true }],
+
+  // Preview environment for branch-based deployments
+  // Deploy with: wrangler deploy --env preview
+  // Preview URL: aitells-preview.<subdomain>.workers.dev
+  // For branch-specific previews in CI, use --name flag:
+  // wrangler deploy --env preview --name aitells-preview-${BRANCH_NAME}
+  "env": {
+    "preview": {
+      "name": "aitells-preview",
+      "routes": []
+    }
+  }
+}
