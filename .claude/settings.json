@@ -1,0 +1,300 @@
+{
+  "permissions": {
+    "additionalDirectories": [".."],
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(date:*)",
+      "Bash(df:*)",
+      "Bash(du:*)",
+      "Bash(env:*)",
+      "Bash(file:*)",
+      "Bash(find:*)",
+      "Bash(echo:*)",
+      "Bash(gh issue list:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh search:*)",
+      "Bash(git branch:*)",
+      "Bash(git diff:*)",
+      "Bash(git init:*)",
+      "Bash(git log:*)",
+      "Bash(git remote:*)",
+      "Bash(git show:*)",
+      "Bash(git stash:*)",
+      "Bash(git status:*)",
+      "Bash(git tag:*)",
+      "Bash(head:*)",
+      "Bash(just --list:*)",
+      "Bash(just benchmark:*)",
+      "Bash(just build:*)",
+      "Bash(just build-docs:*)",
+      "Bash(just build-docs-pr:*)",
+      "Bash(just build-release:*)",
+      "Bash(just clean:*)",
+      "Bash(just clean-docs:*)",
+      "Bash(just clean-python:*)",
+      "Bash(just dev-docs:*)",
+      "Bash(just fix:*)",
+      "Bash(just fix-unsafe:*)",
+      "Bash(just format:*)",
+      "Bash(just install:*)",
+      "Bash(just install-node:*)",
+      "Bash(just install-python:*)",
+      "Bash(just lint:*)",
+      "Bash(just lint-config:*)",
+      "Bash(just lint-docs:*)",
+      "Bash(just lint-json:*)",
+      "Bash(just lint-markdown:*)",
+      "Bash(just lint-prose:*)",
+      "Bash(just lint-python:*)",
+      "Bash(just lint-python-complexity:*)",
+      "Bash(just lint-python-imports:*)",
+      "Bash(just lint-python-style:*)",
+      "Bash(just lint-python-types:*)",
+      "Bash(just lint-spelling:*)",
+      "Bash(just lint-yaml:*)",
+      "Bash(just prek:*)",
+      "Bash(just prek-all:*)",
+      "Bash(just prek-install:*)",
+      "Bash(just run:*)",
+      "Bash(just run-node:*)",
+      "Bash(just run-python:*)",
+      "Bash(just sbom:*)",
+      "Bash(just test:*)",
+      "Bash(just test-all:*)",
+      "Bash(just test-coverage:*)",
+      "Bash(just test-examples:*)",
+      "Bash(just test-failed:*)",
+      "Bash(just test-slow:*)",
+      "Bash(just update-examples:*)",
+      "Bash(just vale-sync:*)",
+      "Bash(just version:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(oaps --prefix:*)",
+      "Bash(oaps agent context:*)",
+      "Bash(oaps agent orient:*)",
+      "Bash(oaps command context:*)",
+      "Bash(oaps command orient:*)",
+      "Bash(oaps config get:*)",
+      "Bash(oaps config list-sources:*)",
+      "Bash(oaps config schema:*)",
+      "Bash(oaps config show:*)",
+      "Bash(oaps config validate:*)",
+      "Bash(oaps docs serve:*)",
+      "Bash(oaps flow start:*)",
+      "Bash(oaps hooks debug:*)",
+      "Bash(oaps hooks errors:*)",
+      "Bash(oaps hooks list:*)",
+      "Bash(oaps hooks stats:*)",
+      "Bash(oaps hooks status:*)",
+      "Bash(oaps hooks test:*)",
+      "Bash(oaps hooks validate:*)",
+      "Bash(oaps project get:*)",
+      "Bash(oaps project state:*)",
+      "Bash(oaps session get:*)",
+      "Bash(oaps session state:*)",
+      "Bash(oaps skill:*)",
+      "Bash(oaps skill orient:*)",
+      "Bash(oaps skill context:*)",
+      "Bash(oaps spec list-templates:*)",
+      "Bash(open:*)",
+      "Bash(prek)",
+      "Bash(pnpm exec markdownlint:*)",
+      "Bash(pnpm exec markdownlint-cli2:*)",
+      "Bash(printenv:*)",
+      "Bash(pwd:*)",
+      "Bash(stat:*)",
+      "Bash(tail:*)",
+      "Bash(tee:*)",
+      "Bash(tree:*)",
+      "Bash(uname:*)",
+      "Bash(uv pip list:*)",
+      "Bash(uv pip show:*)",
+      "Bash(uv run basedpyright:*)",
+      "Bash(uv run codespell:*)",
+      "Bash(uv run python:*)",
+      "Bash(uv run python3:*)",
+      "Bash(uv run ruff:*)",
+      "Bash(uv run yamllint:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv tree:*)",
+      "Bash(wc:*)",
+      "Bash(which:*)",
+      "Bash(whoami:*)",
+      "Grep",
+      "Search",
+      "Skill(oaps:agent-development)",
+      "Skill(oaps:command-development)",
+      "Skill(oaps:python-practices)",
+      "Skill(oaps:skill-development)",
+      "Skill(oaps:spec-writing)",
+      "SlashCommand(/oaps:dev:*)",
+      "WebFetch(domain:docs.astral.sh)",
+      "WebFetch(domain:docs.basedpyright.com)",
+      "WebFetch(domain:docs.pydantic.dev)",
+      "WebFetch(domain:docs.pytest.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:hypothesis.readthedocs.io)",
+      "WebFetch(domain:hypothesis.works)",
+      "WebFetch(domain:just.systems)",
+      "WebFetch(domain:localhost)",
+      "WebFetch(domain:pydantic.github.io)",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:pytest-pyfakefs.readthedocs.io)",
+      "WebFetch(domain:test.pypi.org)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:cyclopts.readthedocs.io)",
+      "WebFetch(domain:deepmerge.readthedocs.io)",
+      "WebFetch(domain:jinja.palletsprojects.com)",
+      "WebFetch(domain:json-schema.org)",
+      "WebFetch(domain:mdformat.readthedocs.io)",
+      "WebFetch(domain:pendulum.eustace.io)",
+      "WebFetch(domain:platformdirs.readthedocs.io)",
+      "WebFetch(domain:docs.pola.rs)",
+      "WebFetch(domain:pytablewriter.readthedocs.io)",
+      "WebFetch(domain:rich.readthedocs.io)",
+      "WebFetch(domain:cyclonedx.org)",
+      "WebFetch(domain:djlint.com)",
+      "WebFetch(domain:bloomberg.github.io)",
+      "WebFetch(domain:pytest-benchmark.readthedocs.io)",
+      "WebFetch(domain:pytest-cov.readthedocs.io)",
+      "WebFetch(domain:pytest-mock.readthedocs.io)",
+      "WebFetch(domain:cosmic-ray.readthedocs.io)",
+      "WebSearch",
+      "mcp__git__git_status",
+      "mcp__ide__getDiagnostics"
+    ],
+    "deny": [
+      "Bash(git add -A:*)",
+      "Bash(git add .:*)",
+      "Bash(git commit -am:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(rm -rf:*)"
+    ],
+    "defaultMode": "plan"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook pre_tool_use"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook permission_request"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook post_tool_use"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook notification"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook stop"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook subagent_stop"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook pre_compact"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook session_start"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook session_end"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "oaps-hook user_prompt_submit"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "oaps@oaps": true
+  }
+}

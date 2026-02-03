@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local development
+.oaps
+tmp/
+.env
+
+# Caches
+.codspeed
+.complexipy_cache
+.coverage*
+.hypothesis
+.import_linter_cache
+.pytest_cache
+.ruff_cache
+coverage.*
+
+# Docs
+node_modules/
+site/
+
+# Vale synced packages (keep vocabulary)
+.vale/*
+!.vale/config/
+.vale/config/*
+!.vale/config/vocabularies/
+.vale/config/vocabularies/*
+!.vale/config/vocabularies/aitells/
