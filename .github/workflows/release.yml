@@ -35,7 +35,7 @@ jobs:
           enable-cache: true
 
       - name: Install just
-        uses: extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff # v3
+        uses: extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b # v3
 
       - name: Add dev version if not a PyPi build
         if: "github.event_name == 'push' || (github.event_name == 'release' && github.event.action != 'published')"
@@ -136,7 +136,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install just
-        uses: extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff # v3
+        uses: extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b # v3
 
       - name: Publish to TestPyPI
         run: just publish-testpypi
@@ -188,7 +188,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install just
-        uses: extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff # v3
+        uses: extractions/setup-just@f8a3cce218d9f83db3a2ecd90e41ac3de6cdfd9b # v3
 
       - name: Publish to PyPI
         run: just publish-pypi
